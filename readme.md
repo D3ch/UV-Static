@@ -1,25 +1,9 @@
-# TIW Static UV
-
-Modified Version of the <a href="https://github.com/titaniumnetwork-dev/Ultraviolet-App" target="blank">Ultraviolet</a> backend. This modification makes the proxy a static website, something no one has ever done before. 
-<br> <strong> Our Developers That Worked on This Project: </strong>
-NC Gaming#0058 and Kwazehhh#7245  <center> Join our discord <a href="https://discord.gg/zJhPJYJCeJ" target="_blank" style="text-decoration:none;"> here </a><br>
-<a> <img src="static/logo.gif" style="width:25%; align-self:center;"> </img> </a> 
-</center> <br>
 
 ## Features
 
-- Search the web using the FIRST static proxy.
-- Access to any website
+- Search the web using a static proxy.
+- Access to most websites. (discord, spotify, and youtube)
 - Deployable on any static hosting platform
-<br><br>
-
-## Deployment
-
-To deploy this website locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/TheTIW/UV-Static`
-2. Navigate to the project directory: `cd UV-Static`
-3. Open the index.html file in a web browser (Cannot be run locally).
 <br><br>
 
 ## Hosting
