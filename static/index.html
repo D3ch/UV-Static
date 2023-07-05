@@ -14,18 +14,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
       <link rel="stylesheet" href="index.css">
-      <script type="text/javascript" src="//counter.websiteout.net/js/7/10/5/0"></script>
       <link rel="shortcut icon" type="image/jpg" href="~/favicon.ico"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
    </head>
    <body>
-      <div id="header">
-         <img src="logo.gif" alt="Logo">
-      </div>
       <div id="content">
-         <h1>Search the Web and use the FIRST static proxy</h1>
+         <h1>Hell Unblocker</h1><br>
+         <h2>Not working? Press the button below and wait for its content to load first.</h2><br>
+         <button onclick="Func()" class="block" type="button">Button</button>
+
 
          <form id="uv-form"">
             <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
@@ -35,9 +34,6 @@
             <p id="uv-error"></p>
             <pre id="uv-error-code"></pre>
           </div>
-         <a href="https://discord.gg/zJhPJYJCeJ" target="_blank" class="fa-brands fa-discord"></a>
-         <a href="https://github.com/TheTIW/UV-Static" target="_blank"class="fa-brands fa-github"></a>
-         <a href="https://starttiw.org" target="_blank"class="fa-solid fa-cloud"></a>
       </div>
       <script src="uv/uv.bundle.js" defer></script>
       <script src="uv/uv.config.js" defer></script>
@@ -45,6 +41,11 @@
       <script src="search.js" defer></script>
       <script src="index.js" defer></script>
       <script src="error.js" defer></script>
+      <script>
+         function Func() {
+             var win = window.open(); var f = win.document.createElement("iframe");  window.focus(); var url = "https://733a1715-7f05-4a07-987b-099e7ebffac2.id.repl.co/bare/"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; win.document.body.appendChild(f); f.src=url; win.document.body.style.margin = '0'; f.style.border = 'none'; f.style.margin = '0'; win.document.body.style.height = '100vh'
+             }
+         </script>
       <div id="footer">
          <p>&copy; 2023 TIW. All rights reserved.</p>
       </div>
